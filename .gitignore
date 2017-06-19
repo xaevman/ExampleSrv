@@ -27,6 +27,7 @@ _cgo_export.*
 _testmain.go
 
 *.exe
+*.exe~
 
 .*
 !/.gitignore
@@ -34,3 +35,4 @@ _testmain.go
 ExampleSrv
 log
 crash
+*.dat

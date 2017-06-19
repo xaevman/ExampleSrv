@@ -1,6 +1,8 @@
 package main
 
 import (
+    "os"
+
     "github.com/xaevman/crash"
     "github.com/xaevman/srvApp"
 )
@@ -8,5 +10,5 @@ import (
 func main() {
     defer crash.HandleAll()
     srvApp.Init()
-    srvApp.Run()
+    os.Exit(srvApp.Run())
 }
